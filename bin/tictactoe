@@ -14,7 +14,7 @@ def start
   when "0"
     player_1 = Computer.new("X")
     player_2 = Computer.new("O")
-    game = Game.new(player_1, player_2 = Computer.new("O"), board = Board.new)
+    game = Game.new(player_1, player_2, board = Board.new)
     game.play
   when "1"
     puts "Who starts first with 'X' - human(H) or computer(C)?"
