@@ -1,5 +1,4 @@
-module Players
-  
+
   class Player
     attr_reader :token
 
@@ -10,7 +9,4 @@ module Players
     def move(number)
       number.to_i
     end
-
-
   end
-end
