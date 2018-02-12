@@ -9,8 +9,6 @@ end
 class Player
 include Players
 
-
-
   def move(number)
     number.to_i
   end
