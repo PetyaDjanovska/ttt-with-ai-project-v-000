@@ -1,4 +1,4 @@
-class Human < Player
+class Human
   include Players
 
   def move(board)
