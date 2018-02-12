@@ -29,3 +29,5 @@ def start
     game.play
   end
 end
+
+start
