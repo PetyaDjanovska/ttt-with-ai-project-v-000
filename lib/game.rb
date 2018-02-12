@@ -120,7 +120,7 @@ WIN_COMBINATIONS = [
       end
     when "2"
       game = Game.new
-      play
+      game.play
     end
   end
 
