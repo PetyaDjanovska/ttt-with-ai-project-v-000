@@ -119,6 +119,8 @@ WIN_COMBINATIONS = [
         game.play
       end
     when "2"
+      game = Game.new
+      play
     end
   end
 
