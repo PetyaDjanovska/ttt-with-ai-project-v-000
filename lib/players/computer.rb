@@ -1,4 +1,4 @@
-class Computer < Player
+class Computer
 include Players
 
   def move(board)
