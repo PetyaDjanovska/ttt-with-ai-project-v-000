@@ -110,10 +110,14 @@ WIN_COMBINATIONS = [
     when "1"
       puts "Who starts first with "X" - human(H) or computer(C)?"
       input = gets.strip
-      game = Game.new(player_1 = Computer.new("X"), player_2 = Computer.new("O"), board = Board.new)
-      game.play
-
-
+      case input
+      when "H"
+        game = Game.new(player_1 = Computer.new("X"), player_2 = Computer.new("O"), board = Board.new)
+        game.play
+      when "C"
+        game = Game.new(player_1 = Computer.new("X"), player_2 = Computer.new("O"), board = Board.new)
+        game.play
+      end
     when "2"
     end
   end
