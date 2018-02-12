@@ -115,7 +115,7 @@ WIN_COMBINATIONS = [
         game = Game.new(player_1 = Human.new("X"), player_2 = Computer.new("O"), board = Board.new)
         game.play
       when "C"
-        game = Game.new(player_1 = Computer.new("X"), player_2 = Computer.new("O"), board = Board.new)
+        game = Game.new(player_1 = Computer.new("X"), player_2 = Human.new("O"), board = Board.new)
         game.play
       end
     when "2"
