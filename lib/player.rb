@@ -1,4 +1,5 @@
 module Players
+  
   class Player
     attr_reader :token
 
