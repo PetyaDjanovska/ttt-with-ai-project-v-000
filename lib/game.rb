@@ -96,4 +96,5 @@ WIN_COMBINATIONS = [
     end
   end
 
+computer = Computer.new
 end
