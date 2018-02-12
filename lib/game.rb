@@ -95,6 +95,4 @@ WIN_COMBINATIONS = [
       puts "Cat's Game!"
     end
   end
-
-computer = Computer.new("X")
 end
