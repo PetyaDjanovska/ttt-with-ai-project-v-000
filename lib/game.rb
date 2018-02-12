@@ -112,7 +112,7 @@ WIN_COMBINATIONS = [
       input = gets.strip
       case input
       when "H"
-        game = Game.new(player_1 = Computer.new("X"), player_2 = Computer.new("O"), board = Board.new)
+        game = Game.new(player_1 = Human.new("X"), player_2 = Computer.new("O"), board = Board.new)
         game.play
       when "C"
         game = Game.new(player_1 = Computer.new("X"), player_2 = Computer.new("O"), board = Board.new)
