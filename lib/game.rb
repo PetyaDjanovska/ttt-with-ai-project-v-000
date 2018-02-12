@@ -97,7 +97,11 @@ WIN_COMBINATIONS = [
   end
 
   def start
-    
+    puts "Welcome to Tic Tac Toe!"
+    puts "How do you want to play?
+    0-player game has two computer players playing against each other with no interaction from the user.
+    1-player game has a human playing against a computer.
+    2-player game has two human players."
   end
 
 end
