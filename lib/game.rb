@@ -96,4 +96,8 @@ WIN_COMBINATIONS = [
     end
   end
 
+  def start
+    
+  end
+
 end
