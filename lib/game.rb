@@ -103,6 +103,14 @@ WIN_COMBINATIONS = [
     1-player game has a human playing against a computer.
     2-player game has two human players."
     input = gets.strip
+    case input
+    when "0"
+
+    when "1"
+
+
+    when "2"
+    end
   end
 
 end
