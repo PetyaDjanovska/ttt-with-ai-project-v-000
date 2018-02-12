@@ -1,3 +1,4 @@
+module Players
 class Player
   attr_reader :token
 
@@ -10,4 +11,5 @@ class Player
   end
 
 
+end
 end
