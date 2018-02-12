@@ -1,5 +1,7 @@
 module Players
-
+    def move(number)
+      number.to_i
+    end
 end
 
 class Player
@@ -8,9 +10,5 @@ class Player
 
   def initialize(token)
     @token = token
-  end
-
-  def move(number)
-    number.to_i
   end
 end
