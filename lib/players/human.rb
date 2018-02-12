@@ -1,12 +1,8 @@
-module Players
+class Human < Player
 
-  class Human < Player
-
-    def move(board)
-      puts "Please enter 1-9:"
-      gets.strip
-    end
-
+  def move(board)
+    puts "Please enter 1-9:"
+    gets.strip
   end
 
 end
